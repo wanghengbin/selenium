@@ -1,9 +1,11 @@
 package com.wanghb.test.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
@@ -14,6 +16,14 @@ public class SeleniumMain {
 
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "/Users/wanghb/Downloads/WebDriver/chromedriver");
+        /**
+         * 设置代理方法
+         */
+//        Proxy proxy = new Proxy();
+//        proxy.setHttpProxy("<HOST:PORT>");
+//        ChromeOptions options = new ChromeOptions();
+//        options.setCapability("proxy", proxy);
+//        WebDriver driver = new ChromeDriver(options);
         WebDriver driver = new ChromeDriver();
 //        driver.get("https://www.baidu.com");
 //        //后退
