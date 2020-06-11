@@ -1,0 +1,9 @@
+selenium测试项目
+参考链接：
+官网文档链接：https://www.selenium.dev/documentation/en/
+https://www.jianshu.com/p/b8bb08229904
+
+使用步骤：
+1、首先有浏览器
+2、需要安装浏览器对应的driver，然后添加到path中，注意一定要根据浏览器类型下载driver，同时要根据自己安装浏览器的版本下载对应的driver，要不然执行可能报错
+3、引入对应的pom依赖，然后使用driver的api执行自动化操作
